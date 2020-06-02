@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/splash_color_background"/>
+
+    <item>
+        <bitmap android:gravity="center"
+                android:src="@drawable/family_task_ic_35dp" />
+    </item>
+
+</layer-list>

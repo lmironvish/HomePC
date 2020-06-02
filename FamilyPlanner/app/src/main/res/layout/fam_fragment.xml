@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fragmentColor">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/FamilyTask"
+        android:textColor="@color/textColor"
+        android:textSize="20sp"/>
+
+    <ListView
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        android:textColor="@color/textColor"
+        android:layout_weight="9"
+        android:id="@+id/fam_task_list"/>
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="end"
+        android:id="@+id/addB"
+        android:src="@drawable/ic_add_60dp"
+        android:background="@color/fragmentColor"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Семейный планнер</string>
+    <string name="close">Закрыть</string>
+    <string name="delete">Удалить</string>
+    <string name="done">Готово</string>
+    <string name="cancel">Отмена</string>
+    <string name="task_topic">Тема задачи</string>
+    <string name="task_content">Описание задачи</string>
+    <string name="task_deadline">Крайний срок</string>
+    <string name="done_task">Выполнено</string>
+    <string name="take_task">Взять задание</string>
+    <string name="MyTask">Мои Задачи</string>
+    <string name="FamilyTask">Семейные задачи</string>
+    <string name="InProcess">Выполняются</string>
+    <string name="diaInfo">Информация</string>
+    <string name="diaDel">Удалить задачу?</string>
+    <string name="diaAdd">Добавление задачи</string>
+    <string name="topInfo">Тема задачи:</string>
+    <string name="contInfo">Описание задачи:</string>
+    <string name="deadlineInfo">Выполнить до:</string>
+<!--    <string name="task_deadline">Крайний срок</string>-->
+
+</resources>

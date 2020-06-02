@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:id="@+id/fragment_space">
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/frA"
+            android:name="com.example.familyplanner.MyTask.MyTaskFragment"/>
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/frB"
+            android:name="com.example.familyplanner.FamilyTask.FamilyTaskFragment"/>
+
+        <fragment
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/frC"
+            android:name="com.example.familyplanner.InProcess.InProcessFragment"/>
+
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/btn1"
+            android:src="@drawable/my_task_ic_35dp"
+            android:textColor="@color/textColor"
+            android:background="@color/btnOnFr"
+            android:text="@string/MyTask"
+            tools:ignore="ButtonStyle"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/btn2"
+            android:src="@drawable/family_task_ic_35dp"
+            android:textColor="@color/textColor"
+            android:background="@color/btnOnFr"
+            android:text="@string/FamilyTask"
+            tools:ignore="ButtonStyle"/>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/btn3"
+            android:src="@drawable/in_process_ic_35dp"
+            android:textColor="@color/textColor"
+            android:background="@color/btnOnFr"
+            android:text="@string/InProcess"
+            tools:ignore="ButtonStyle"/>
+
+    </LinearLayout>
+
+</LinearLayout>

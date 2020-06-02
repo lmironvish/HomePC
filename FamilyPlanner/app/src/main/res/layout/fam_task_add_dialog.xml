@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/diaColor"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:text="@string/diaAdd"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="textCapSentences"
+        android:hint="@string/task_topic"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/diaHintColor"
+        android:id="@+id/fam_topic_et"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="textCapSentences"
+        android:hint="@string/task_content"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/diaHintColor"
+        android:id="@+id/fam_content_et"/>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:inputType="textCapSentences"
+        android:hint="@string/task_deadline"
+        android:textColor="@color/textColor"
+        android:textColorHint="@color/diaHintColor"
+        android:id="@+id/fam_deadline"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/done"
+        android:id="@+id/fam_confirm_btn"
+        android:background="@drawable/button_shaped"
+        android:textColor="@color/textColor"
+        android:layout_margin="5dp"
+        android:textSize="20sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel"
+        android:background="@drawable/button_shaped"
+        android:textColor="@color/textColor"
+        android:id="@+id/fam_cancel_btn"
+        android:layout_margin="5dp"
+        android:textSize="20sp"/>
+
+</LinearLayout>

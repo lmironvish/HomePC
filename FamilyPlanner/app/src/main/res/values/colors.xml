@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#27292D</color>
+    <color name="colorPrimaryDark">#27292D</color>
+    <color name="colorAccent">#597da3</color>
+    <color name="splash_color_background">#BDF7FF</color>
+    <color name="fragmentColor">#1F2023</color>
+    <color name="btnOnFr">#27292D</color>
+    <color name="numColor">#A6A6A6</color>
+    <color name="textColor">#D9FFFFFF</color>
+    <color name="diaColor">#27292D</color>
+    <color name="diaBtnColor">#2D2F34</color>
+    <color name="diaHintColor">#80FFFFFF</color>
+</resources>
